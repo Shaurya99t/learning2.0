@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        * {
+            margin: 9px;
+            padding: 9px;
+        }
+
+        .content {
+            height: 110px;
+            width: 327px;
+            background-color: aquamarine;
+            margin: 3px;
+            padding: 3px;
+            border: 4px solid rgb(82, 25, 25);
+            border-style: double;
+            border-radius: 10px;
+        }
+
+        .nice {
+            height: 120px;
+            width: 340px;
+            background-color: rgb(158, 221, 122);
+            margin: 18px 5px 9px 10px;
+            padding: 10px 5px 3px 7px;
+            border: 5px solid rgb(87, 36, 83);
+            border-style: dotted;
+            border-radius: 10px;
+        }
+
+        .border {
+            height: 130px;
+            width: 340px;
+            background-color: rgb(221, 153, 122);
+            margin: 40px 15px 20px 15px;
+            padding: 10px 5px 3px 7px;
+            border: 5px solid rgb(31, 33, 61);
+            border-style: dashed groove solid double;
+            border-radius: 10px;
+        }
+
+        .sizing {
+            height: 170px;
+            width: 440px;
+            background-color: rgb(221, 153, 122);
+            padding: 10px;
+            border: 5px solid rgb(31, 33, 61);
+            border-style: dashed;
+            border-radius: 10px;
+        }
+        
+        .box {
+            
+            background-color: rgb(221, 139, 194);
+            padding: 10px;
+            border: 5px solid rgb(80, 58, 17);
+            border-style: dashed;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, rem quod. Magni molestias vero corporis enim
+        illo maiores. Labore quibusdam repudiandae voluptatum incidunt quisquam magni minima tempora odio beatae. Quia?
+    </div>
+
+    <div class="nice">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, rem quod. Magni molestias vero corporis enim
+        illo maiores. Labore quibusdam repudiandae voluptatum incidunt quisquam magni minima tempora odio beatae. Quia?
+    </div>
+    <div class="border">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, rem quod. Magni molestias vero corporis enim
+        illo maiores. Labore quibusdam repudiandae voluptatum incidunt quisquam magni minima tempora odio beatae. Quia?
+    </div>
+    <div class="sizing">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi iste quae expedita voluptas nisi consequatur
+        architecto vero a, repellendus aspernatur, obcaecati officiis recusandae dolore alias ullam fuga laborum
+        cupiditate similique?
+        <div class="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, illo aperiam voluptatibus ullam obcaecati
+            doloremque.
+        </div>
+    </div>
+
+</body>
+
+</html>

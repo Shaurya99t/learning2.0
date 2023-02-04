@@ -1,0 +1,49 @@
+*{
+    padding: 2px;
+    margin: 0px;
+}
+.container{
+    border: 0px solid rgb(248, 101, 101);
+    border: 3px solid red;
+}
+.container-fluid{
+    border: 0px solid rgb(153, 99, 184);
+    border: 3px solid red;
+}
+.row{
+    border: 0px solid rgb(165, 84, 91);
+    border: 3px solid red;
+}
+.col{
+    border: 0px solid rgb(99, 144, 196);
+}
+body{
+    background: grey;
+}
+#header{
+    padding: 10px 0px 10px 10px;
+    background-color: rgb(235, 187, 97);
+}
+#menu{
+    padding: 3px 3px;
+    background-color: rgb(158, 212, 121);
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+    display: inline-block;
+}
+#content{
+    background-color: rgb(106, 190, 113);
+}
+#sidebar{
+    background-color: rgb(197, 143, 126);
+}
+#conclusion{
+    background-color: rgb(117, 101, 163);
+}
+#footer{
+    color:white;
+    background-color: rgb(0, 0, 0);
+}

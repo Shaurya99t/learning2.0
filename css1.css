@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+}
+.red {
+    background-color: brown;
+    background-image: url(photo3.jpg);
+    background-repeat: no-repeat;
+    color: #f0ffff;
+    height:100px;
+    background-attachment: fixed;
+}
+#head{
+    background-image: url(photo3.jpg);
+    background-repeat:no-repeat;
+    height: 250px;
+    background-size: cover;
+    background-size: 200px;
+    background-position:center;
+    color: rgb(255, 186, 167);
+} 
+.green{
+    height: 138px;
+    width: 206px;
+    background-image: url(photo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    color: rgba(243, 117, 20, 0.408);
+}
+.count{
+background-image: url(photo1.jpg);
+background-repeat:no-repeat; 
+background-size: cover;
+height:200px;
+width: 200px;
+background-position: top center;
+}
+.pink{
+    height: 200px;
+    width: 250px;
+    background-image: url(sphoto.jpg);
+    background-image: 200px;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+}
+.list{
+background-color: rgb(66, 15, 107);
+color: aqua;
+width: 70px;
+height: 60px;
+}
